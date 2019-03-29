@@ -1,0 +1,42 @@
+.main-header {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__inner {
+    height: 60px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__title {
+    float: left;
+    margin-right: 500px;
+    width: 200px;
+    color: #808080;
+    font-size: 50px;
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+  }
+  &__function {
+    float: left;
+    li {
+      float: left;
+      margin-right: 20px;
+      color: #808080;
+      font-family: Helvetica, Verdana, Arial, sans-serif;
+      }
+    }
+  }
+
+.main-container {
+  background: image-url("bench-accounting-49908-unsplash.jpg");
+  height: 500px;
+  background-size: cover;
+  .main-text {
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    padding-top: 300px;
+  }
+}
