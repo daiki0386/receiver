@@ -57,18 +57,39 @@
   }
 }
 
-.description-container {
+.description {
   height: 500px;
   background: #EEEEEE;
   position: relative;
-  &__imagebox {
-    background: image-url("map-image.png");
-    background-size: cover;
-    height: 250px;
-    width: 400px;
+  .description-container {
+    width: 90%;
+    height: 400px;
     position: absolute;
-    top: 50px;
-    left: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right:0;
+    margin: auto;
+    &__imagebox {
+      background: image-url("map-image.png");
+      background-size: cover;
+      height: 250px;
+      width: 400px;
+      position: absolute;
+      top: 50px;
+      left: 100px;
+    }
+    &__textbox {
+      height: 350px;
+      width: 600px;
+      position: absolute;
+      top: 50px;
+      right: 80px;
+      &--title {
+        font-family: Helvetica, Verdana, Arial, sans-serif;
+        font-size: 40px;
+      }
+    }
   }
 }
 
