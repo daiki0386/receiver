@@ -60,6 +60,16 @@
 .description-container {
   height: 500px;
   background: #EEEEEE;
+  position: relative;
+  &__imagebox {
+    background: image-url("map-image.png");
+    background-size: cover;
+    height: 250px;
+    width: 400px;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+  }
 }
 
 .main-footer{
