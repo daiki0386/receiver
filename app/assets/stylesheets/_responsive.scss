@@ -1,0 +1,30 @@
+@media (max-width:960px ) {
+  .main-container {
+    height: 400px;
+    .main-text{
+    padding-top: 250px;
+    font-size: 40px;
+    }
+  }
+  .middle-container__textbox {
+    width: 80%;
+  }
+  .description {
+    height: 600px;
+    .description-container {
+      position: static;
+      padding-top: 20px;
+        &__imagebox {
+          width: 60%;
+          float: none;
+          margin: 0 auto;
+        }
+        &__textbox {
+          width: 60%;
+          float: none;
+          padding-top: 20px;
+          margin: 0 auto;
+      }
+    }
+  }
+}
