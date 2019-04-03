@@ -2,15 +2,15 @@
   .main-container {
     height: 400px;
     .main-text{
-    padding-top: 250px;
-    font-size: 40px;
+      padding-top: 250px;
+      font-size: 40px;
     }
   }
   .middle-container__textbox {
-    width: 80%;
+    width: 70%;
   }
   .description {
-    height: 600px;
+    height: 720px;
     .description-container {
       position: static;
       padding-top: 20px;
@@ -24,6 +24,71 @@
           float: none;
           padding-top: 20px;
           margin: 0 auto;
+      }
+    }
+  }
+}
+
+@media (max-width:600px ) {
+  .main-header {
+    height: 60px;
+    &__inner {
+      padding-top: 7px;
+      .menu-icon {
+        display: block;
+        float: right;
+        font-size: 30px;
+        padding-top: 10px;
+        color: #808080;
+      }
+    }
+    &__title {
+      font-size: 40px;
+    }
+    &__function {
+      display: none;
+    }
+  }
+  .main-container {
+    height: 250px;
+    .main-text{
+      padding-top: 150px;
+      font-size: 30px;
+    }
+  }
+  .middle-container {
+    height: 100px;
+  &__textbox {
+    width: 50%;
+    font-size: 18px;
+    }
+  }
+  .description {
+    .description-container {
+      &__imagebox {
+        background-size: cover;
+        height: 200px;
+        width: 300px;
+      }
+      &__textbox {
+        width: 80%;
+        p {
+          font-size: 15px;
+        }
+        &--title {
+          font-size: 24px;
+        }
+      }
+    }
+  }
+  .main-footer {
+    height: 150px;
+    &__inner {
+      height: 130px;
+      &--textbox {
+        width: 100%;
+        text-align: center;
+        position: static;
       }
     }
   }

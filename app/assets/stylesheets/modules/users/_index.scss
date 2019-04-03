@@ -6,6 +6,9 @@
   &__inner {
     height: 60px;
     width: 80%;
+    .menu-icon {
+      display: none;
+    }
   }
   &__title {
     float: left;
