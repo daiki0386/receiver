@@ -6,6 +6,9 @@
   &__inner {
     height: 60px;
     width: 80%;
+    .menu-icon {
+      display: none;
+    }
   }
   &__title {
     float: left;
@@ -67,11 +70,11 @@
 }
 
 .description {
-  height: 500px;
+  height: 450px;
   background: #EEEEEE;
   position: relative;
   .description-container {
-    width: 90%;
+    max-width: 1100px;
     height: 400px;
     position: absolute;
     top: 0;
@@ -83,17 +86,13 @@
       background: image-url("map-image.png");
       background-size: cover;
       height: 250px;
-      width: 400px;
-      position: absolute;
-      top: 50px;
-      left: 100px;
+      width: 40%;
+      float: left;
     }
     &__textbox {
       height: 350px;
-      width: 600px;
-      position: absolute;
-      top: 50px;
-      right: 80px;
+      width: 50%;
+      float: right;
       &--title {
         font-family: Helvetica, Verdana, Arial, sans-serif;
         font-size: 40px;
@@ -123,11 +122,5 @@
       }
     }
   }
-
-
-
-
-
-
 
 
