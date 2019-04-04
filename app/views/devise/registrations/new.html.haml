@@ -6,6 +6,10 @@
         .form-group
           = f.text_field :name, autofocus: true, autocomplete: "name", placeholder: " 氏名", class: "form-group__input"
         .form-group
+          = f.text_field :postcode, autofocus: true, autocomplete: "postcode", placeholder: " 郵便番号", class: "form-group__input"
+        .form-group
+          = f.text_field :address, autofocus: true, autocomplete: "address", placeholder: " 住所", class: "form-group__input"
+        .form-group
           = f.email_field :email, autofocus: true, autocomplete: "email", placeholder: " メールアドレス", class: "form-group__input"
         .form-group
           = f.password_field :password, autocomplete: "current-password", placeholder: " パスワード（6文字以上）", class: "form-group__input"
