@@ -25,6 +25,11 @@
 %section.middle-container
   %div.middle-container__textbox
     %h3 近くのReceiverを探す
+  = form_tag(users_search_path, method: :get,class: "middle-container__searchbox") do
+    = text_field_tag :search, '', class: 'middle-container__input'
+    %button{class: "middle-container__searchbtn",:type => "submit"}
+      %i.fas.fa-search
+
 
 %section.description
   %div.description-container

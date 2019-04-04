@@ -6,8 +6,13 @@
       font-size: 40px;
     }
   }
-  .middle-container__textbox {
-    width: 70%;
+  .middle-container {
+    &__searchbox {
+      width: 70%;
+    }
+    &__textbox {
+      width: 70%;
+    }
   }
   .description {
     height: 720px;
@@ -61,6 +66,9 @@
   &__textbox {
     width: 50%;
     font-size: 18px;
+    }
+  &__searchbox {
+    width: 50%;
     }
   }
   .description {
